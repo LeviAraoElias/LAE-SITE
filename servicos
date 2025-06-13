@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Serviços - LAE Prestação de Serviço</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      scroll-behavior: smooth;
+    }
+    header, footer {
+      background-color: #111;
+      color: #fff;
+      text-align: center;
+      padding: 2em 1em;
+    }
+    section {
+      padding: 3em 2em;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      border-radius: 10px;
+      margin-top: 2em;
+      animation: fadeIn 1s ease-in;
+    }
+    h2 {
+      color: #111;
+      margin-bottom: 1em;
+    }
+    .service {
+      margin-bottom: 2em;
+    }
+    .service h3 {
+      color: #00cc99;
+      margin-bottom: 0.5em;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 2em;
+      padding: 0.7em 1.5em;
+      background: #00cc99;
+      color: white;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #009977;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nossos Serviços</h1>
+    <p>Descubra o que a LAE pode oferecer</p>
+  </header>
+
+  <section>
+    <div class="service">
+      <h3>LAE Business</h3>
+      <p>Oferece serviços de consultoria, desenvolvimento empresarial, gestão financeira e apoio a empreendedores em Angola e além.</p>
+    </div>
+
+    <div class="service">
+      <h3>Elavoco Sumos</h3>
+      <p>Produz e distribui sumos naturais, com qualidade e inovação no setor de bebidas saudáveis e tropicais.</p>
+    </div>
+
+    <div class="service">
+      <h3>LAE Entreteniment</h3>
+      <p>Organiza eventos, festas e experiências culturais com foco em profissionalismo, criatividade e impacto.</p>
+    </div>
+
+    <div class="service">
+      <h3>LAE Transportes</h3>
+      <p>Apresenta soluções de transporte urbano e logístico com segurança, pontualidade e conforto.</p>
+    </div>
+
+    <div class="service">
+      <h3>Serviços Futuros (Em Planeamento)</h3>
+      <ul>
+        <li>LAE Digital – Marketing, branding e comunicação online.</li>
+        <li>LAE Construções – Engenharia e construção civil.</li>
+        <li>LAE Saúde – Clínicas, bem-estar e saúde preventiva.</li>
+        <li>LAE Educação – Treinamentos, cursos técnicos e profissionalizantes.</li>
+      </ul>
+    </div>
+
+    <a class="btn" href="index.html">Voltar à Página Inicial</a>
+  </section>
+
+  <footer>
+    <p>Entre em contacto: <a href="mailto:levielavocoarao@gmail.com">levielavocoarao@gmail.com</a> | Instagram: <a href="https://instagram.com/leviaraoeliias" target="_blank">@leviaraoeliias</a></p>
+    <p>&copy; 2025 LAE Prestação de Serviço. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
