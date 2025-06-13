@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre Nós - LAE Prestação de Serviço</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+      scroll-behavior: smooth;
+    }
+    header, footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 2em 1em;
+    }
+    section {
+      padding: 3em 2em;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-top: 2em;
+      border-radius: 10px;
+      animation: fadeIn 1.2s ease-in;
+    }
+    h2 {
+      color: #111;
+      margin-bottom: 1em;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    a {
+      color: #00cc99;
+      text-decoration: none;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1em;
+      padding: 0.7em 1.5em;
+      background: #00cc99;
+      color: white;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: 0.3s;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background: #009977;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sobre Nós</h1>
+    <p>Conheça melhor a estrutura da LAE Prestação de Serviço</p>
+  </header>
+
+  <section>
+    <h2>Quem Somos</h2>
+    <p>A <strong>LAE Prestação de Serviço</strong> é uma empresa angolana moderna, com foco na prestação de serviços diversificados através de suas filiais. Fundada por <strong>Levi Elavoco Arão Elias</strong>, atua com inovação e visão estratégica.</p>
+
+    <h2>Filiais Atuais</h2>
+    <ul>
+      <li><strong>LAE Business</strong> – Consultoria e apoio estratégico para empresa/s.</li>
+      <li><strong>Elavoco Sumos</strong> – Produção e distribuição de sumos naturais e bebidas.</li>
+      <li><strong>LAE Entreteniment</strong> – Organização de eventos, festas e experiências culturais.</li>
+      <li><strong>LAE Transportes</strong> – Soluções de mobilidade urbana e logística.</li>
+    </ul>
+
+    <h2>Expansão Futuras (Sugestões)</h2>
+    <ul>
+      <li><strong>LAE Digital</strong> – Marketing digital, design e redes sociais.</li>
+      <li><strong>LAE Construções</strong> – Obras públicas e construção civil.</li>
+      <li><strong>LAE Educação</strong> – Cursos, workshops e formação profissional.</li>
+      <li><strong>LAE Saúde</strong> – Bem-estar, saúde preventiva e serviços clínicos.</li>
+    </ul>
+
+    <p>Estamos sempre prontos para crescer, inovar e oferecer mais soluções para Angola e o mundo.</p>
+
+    <a class="btn" href="index.html">Voltar à Página Inicial</a>
+  </section>
+
+  <footer>
+    <p>Contacte-nos: <a href="mailto:levielavocoarao@gmail.com">levielavocoarao@gmail.com</a> | 
+    <a href="https://instagram.com/leviaraoeliias" target="_blank">@leviaraoeliias</a></p>
+    <p>&copy; 2025 LAE Prestação de Serviço. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
