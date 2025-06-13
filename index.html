@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LAE Prestação de Serviço</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, footer { background: #111; color: #fff; text-align: center; padding: 1em 0; }
+        section { padding: 2em; }
+        a.button {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background: #25D366;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+        a.button:hover { transform: scale(1.05); }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+        input, textarea {
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type=submit] {
+            background-color: #111;
+            color: white;
+            cursor: pointer;
+        }
+        input[type=submit]:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LAE Prestação de Serviço</h1>
+        <p>Conectando Negócios, Eventos, Transportes e Muito Mais</p>
+    </header>
+
+    <section>
+        <h2>Contactos</h2>
+        <a href="https://wa.me/244924645874" class="button">WhatsApp</a>
+        <a href="https://instagram.com/leviaraoelias" class="button" style="background:#E1306C;">Instagram</a>
+    </section>
+
+    <section>
+        <h2>Formulário de Contato</h2>
+        <form action="https://formsubmit.co/levielavocoarao@gmail.com" method="POST">
+            <input type="text" name="nome" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <input type="text" name="assunto" placeholder="Assunto" required>
+            <textarea name="mensagem" placeholder="Sua mensagem" rows="4" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 LAE Prestação de Serviço. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
